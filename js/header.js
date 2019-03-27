@@ -9,5 +9,4 @@ header.innerHTML = `
         <button type="submit">lancer la Recherche</button>
         </nav>
         <h1>Bienvenue sur VétiScore</h1>
-
 `
