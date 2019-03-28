@@ -1,3 +1,5 @@
+'use strict'
+
 let section1 = document.querySelector('#section1');
 section1.innerHTML = `
 <ul class="nav nav-tabs" id="myTabSection1" role="tablist">
