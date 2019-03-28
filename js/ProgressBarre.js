@@ -1,11 +1,20 @@
 'use strict'
-// création d'une fonction qui ecoute le nombre de changement sur ma classe checkbox
-let nbChange = checkbox.addEventListener("change")
-    
-console.log(count)
+// création d'une fonction qui compte le nombre de changement sur ma classe checkbox
 
+function count (event){
+    let checkbox = document.querySelectorAll (".checkbox");
+
+checkbox.addEventListener("change");
+return event
+}
+console.log(count())
+    
 
 let count = 3
+
+
+/* possible a remplace par une boucle for puisque le nombre d'iteration est connu? */
+
 
 if (count === 0){
 //prend classe checkbar et met dans la classe style:"width : 0%"
@@ -28,3 +37,4 @@ else {
 //prend classe checbar et met texte : 5/5
 // rendre bouton  Enregistrer utilisable
 }
+
