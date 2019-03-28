@@ -1,3 +1,5 @@
+'use strict'
+
 let header = document.querySelector("header");
 //insertion dans le header du projet 
 //logo, volet de navigation et titre

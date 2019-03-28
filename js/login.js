@@ -1,3 +1,5 @@
+'use strict'
+
 //Création login
 let login = document.querySelector('#login');
 login.innerHTML = `

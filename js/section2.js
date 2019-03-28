@@ -1,3 +1,5 @@
+'use strict'
+
 let section2 = document.querySelector("#section2");
 //insertion dans le header du projet 
 //logo, volet de navigation et titre

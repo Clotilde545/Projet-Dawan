@@ -1,4 +1,4 @@
-'use strist'
+'use strict'
 
 // création d'une variable footer pour selectionner les élément à créer dans le footer du HTML
 let footer = document.querySelector("footer")
