@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(230, 223, 223);
+    border: 2px grey solid;
+}
+header h1 {
+    align-self: center;
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 400%;
+}
+header img {
+    max-height: 200px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    color: cadetblue;
+}
+nav a, nav button {
+    color: cadetblue;
+}
