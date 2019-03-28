@@ -26,7 +26,7 @@ section1.innerHTML = `
         <h2>Format du VétiScore</h2>
         <p>Le VétiScore est renseigné par des lettres allant de A à E.</p>
         <figure>
-            <img src="img/VetiScore.png" alt="VetiScore">
+            <img src="../img/VetiScore.png" alt="VetiScore">
             <fig-caption>Schéma du VétiScore</fig-caption>
         </figure>
     </div>
