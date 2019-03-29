@@ -142,11 +142,12 @@ main.innerHTML = `
                     </div>
                 </div>
             </div>
-        </form>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progressBar">2/5 </div>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progressBar">5/5 </div>
         </div>
-        <button type="button" id="boutonDatabase" class="btn btn-outline-success">Enregistrer</button>
+        <button type="button" id="bouttonDatabase" class="btn btn-outline-success">Enregistrer</button>
+        </form>
+      
         
 `
 
