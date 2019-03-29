@@ -14,13 +14,15 @@ console.log("hello");
 
 let checkbox = document.querySelectorAll (".form-check-input");
 console.log(checkbox.lenght);
-console.log(checkbox)
+console.log(checkbox[0]);
+console.log(checkbox[0].checked);
 
 //mise en place d'un écouteur pour récupérer le nombre de valeur checked = True
 let form = document.querySelector("form")
 form.addEventListener("click", function() {
-  let value = checkbox.checked.value
+  let value = checkbox[0].checked.value
 
+  console.log(checkbox[0].name + " = " + checkbox[0].checked);
 
 
    console.log(value);

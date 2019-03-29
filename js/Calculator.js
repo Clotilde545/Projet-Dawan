@@ -24,7 +24,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
 
                     <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox1"
+                        <input name="chkInfluence" class="form-check-input position-static" type="checkbox" id="blankCheckbox1"
                             value="option1" aria-label="...">
                     </div>
                 </div>
