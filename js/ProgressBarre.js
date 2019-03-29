@@ -19,7 +19,9 @@ console.log(checkbox)
 //mise en place d'un écouteur pour récupérer le nombre de valeur checked = True
 let form = document.querySelector("form")
 form.addEventListener("click", function() {
-  let value = checkbox.value;
+  let value = checkbox.checked.value
+
+
 
    console.log(value);
 });
