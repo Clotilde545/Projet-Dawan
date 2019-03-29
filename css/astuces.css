@@ -42,6 +42,11 @@ main p{
 
 h2{
     margin-bottom: 20px;
+    color: cadetblue;
+}
+
+h3{
+    color: cadetblue;
 }
 #pollution{
     margin-top: 50px;

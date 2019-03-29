@@ -9,7 +9,7 @@ main div{
     text-align: justify;
     color: #ADCA48;
 }
-h1, h5 {
+h1, h5, article {
     color: cadetblue;
 }
 h1{
