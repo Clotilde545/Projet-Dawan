@@ -1,40 +1,28 @@
-'use strict'
-// création d'une fonction qui compte le nombre de changement sur ma classe checkbox
 
-function count (event){
-    let checkbox = document.querySelectorAll (".checkbox");
+/*création d'une fonction qui compte le nombre de changement sur ma classe checkbox.
+*etape par étape :
+* Compter le nombre de checkbox (donc savoir ou les trouver)
+*Etre capable de réperer la valeur de ma checkbox : valider ou non
+*récupérer le nombre de valeur de mes checkboxs (=voir le changement au click)
+*Faire une action en fonction du nombre de valeur qui est :
+*Mettre dans la classe style de ma progress bar la valeur suivante : nbvaleurcheckbox*100/nbvaleurmax
+*Et mettre dans le text de ma progress bar : nbvaleurcheckbox/nbvaleurmax
+*/
 
-checkbox.addEventListener("change");
-return event
-}
-console.log(count())
-    
-
-let count = 3
-
-
-/* possible a remplace par une boucle for puisque le nombre d'iteration est connu? */
+console.log("hello");
 
 
-if (count === 0){
-//prend classe checkbar et met dans la classe style:"width : 0%"
-//prend classe checbar et met texte : 0/5
-}
-else if (count === 1){
+let checkbox = document.querySelectorAll (".form-check-input");
+console.log(checkbox.lenght);
+console.log(checkbox)
 
-}
-else if (count === 2){
-    
-}
-else if (count === 3){
-    
-}
-else if (count === 4){
-    
-}
-else {
-//prend classe checkbar et met dans la classe style:"width : 100%"
-//prend classe checbar et met texte : 5/5
-// rendre bouton  Enregistrer utilisable
-}
+//mise en place d'un écouteur pour récupérer le nombre de valeur checked = True
+let form = document.querySelector("form")
+form.addEventListener("click", function() {
+  let value = checkbox.checked.value
+
+
+
+   console.log(value);
+});
 
