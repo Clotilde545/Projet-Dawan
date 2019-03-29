@@ -9,7 +9,7 @@ footer.innerHTML = `
     
     <div id="div1Foot2"> 
         <div class="media">
-                <img src="../img/data=EHW_mINW8aHn3FTlHTodsZdlpphTsWbDU2TgP2cRpFA9XYVIinGJb8NnbnLVVJNp4jeHZ6H0H0QyoqPm8tdlJeBtJ27yrnHV6QJVXEdiouOwRhgI_Ape9H4qQqxC1izJU08Qx-L4b5YGtCeI.png" class="mr-3" alt="...">
+                <img id = "map " src="../img/data=EHW_mINW8aHn3FTlHTodsZdlpphTsWbDU2TgP2cRpFA9XYVIinGJb8NnbnLVVJNp4jeHZ6H0H0QyoqPm8tdlJeBtJ27yrnHV6QJVXEdiouOwRhgI_Ape9H4qQqxC1izJU08Qx-L4b5YGtCeI.png" class="mr-3" alt="...">
                 <div class="media-body">
                 <h5 id="contact">Contact</h5>
                   <h5 class="mt-0">Adresse</h5>
