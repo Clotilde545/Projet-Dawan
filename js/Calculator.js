@@ -124,7 +124,7 @@ main.innerHTML = `
             </div>
         </form>
         <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25% </div>
+            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progressBar">2/5 </div>
         </div>
         <button type="button" id="boutonDatabase" class="btn btn-outline-success">Enregistrer</button>
 `
@@ -132,3 +132,6 @@ main.innerHTML = `
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+
+
+
