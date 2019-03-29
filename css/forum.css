@@ -7,16 +7,14 @@ main div{
     padding-top: 0px;
     justify-content: space-around;
     text-align: justify;
-    color: rgb(37, 34, 34);
+    color: #ADCA48;
 }
 h1, h5 {
     color: cadetblue;
 }
 h1{
     text-align: center;
-  
-
-}
+  }
 main{
     display: grid;
     grid-template-rows: 0.1fr .90fr;

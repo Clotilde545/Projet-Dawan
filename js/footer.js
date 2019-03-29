@@ -4,7 +4,7 @@
 let footer = document.querySelector("footer")
 
 footer.innerHTML = `
-<article id="artFooter1"> ID concepteurs</article>
+<article id="artFooter1"> Created by Agromy and Clo</article>
 <article id="artFooter2"> 
     
     <div id="div1Foot2"> 
