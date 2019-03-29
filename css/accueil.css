@@ -10,3 +10,11 @@ main {
     min-height: 400px;
     flex-grow: 1;
 }
+
+#section1{
+    max-width: 50%;
+}
+
+#section2{
+    max-width: 50%;
+}

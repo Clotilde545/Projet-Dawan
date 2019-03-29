@@ -1,3 +1,8 @@
 main{
-    background-color: linear-gradient(rgba(240, 240, 228, 0.432), rgba(240, 240, 228, 0.466));
+    background-image: linear-gradient(rgba(112, 166, 202, 0.288), rgba(155, 199, 195, 0.366));
 }
+
+body{
+    font-family: cursive;
+}
+

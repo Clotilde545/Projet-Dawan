@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: rgb(230, 223, 223);
+    background: rgba(24, 14, 4, 0.712);
     border: 2px grey solid;
     padding: 5px;
     font-family: cursive;
@@ -12,8 +12,8 @@ footer{
     display: flex;
     align-self: center;
 }
-article{
-    color: cadetblue;
+footer article{
+    color: rgb(176, 215, 216);
 }
 #artFooter3{
     display: flex;

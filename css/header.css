@@ -2,7 +2,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: rgb(230, 223, 223);
+    background: rgb(83, 75, 66);
     border: 2px grey solid;
     position: sticky;
     top: 0;
