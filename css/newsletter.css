@@ -4,13 +4,18 @@ body {
     justify-content: space-between;
     flex-grow: 1;
     min-block-size: 100vh;
+    margin: 0px;
 }
 
 main {
-    min-height: 400px;
+    display: flex;
     flex-grow: 1;
+    min-block-size: 100vh;
+    min-height: 500px;
+    margin: 0px;
+
 }
-main p{
+article p{
     text-align: justify;
     padding: 15px;
     padding-top: 0px;

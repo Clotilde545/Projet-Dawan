@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-block-size: 100vh;
+}
+
 main img{
     max-width: 100px;
 }
@@ -16,11 +24,14 @@ h1{
     text-align: center;
   }
 main{
+    display: flex;
+    flex-grow: 1;
     display: grid;
     grid-template-rows: 0.1fr .90fr;
     min-height: 500px;
     padding: 10px;
     font-family: cursive;
+    margin: 0;
 }
 
 .article{
