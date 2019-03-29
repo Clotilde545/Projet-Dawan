@@ -25,5 +25,12 @@ nav {
     color: cadetblue;
 }
 nav a, nav button {
-    color: cadetblue;
+    color: rgb(176, 215, 216);
+}
+header button{
+    background: plum;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000;
+    color: rgb(90, 88, 88);
 }

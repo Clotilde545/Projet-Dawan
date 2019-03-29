@@ -5,7 +5,7 @@ let section2 = document.querySelector("#section2");
 //logo, volet de navigation et titre
 section2.innerHTML = `
 <article id="calculator">
-    <a href="Calculator.html" class="breadcrumb" role="button">noter votre vetement</a>
+    <a href="Calculator.html" class="breadcrumb" role="button">Noter votre vêtement</a>
 </article>
 <article id="astuces"> 
     <a href="Astuces.html" class="breadcrumb" role="button">Astuces</a>

@@ -3,13 +3,13 @@ main img{
 }
 main div{
     display: flex;
-    padding: 10px;
+    padding: 15px;
     padding-top: 0px;
     justify-content: space-around;
     text-align: justify;
     color: #ADCA48;
 }
-h1, h5 {
+h1, h5, article {
     color: cadetblue;
 }
 h1{
@@ -35,4 +35,5 @@ section button{
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 1px #000;
+    color:  rgb(90, 88, 88);
 }
