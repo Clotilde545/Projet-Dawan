@@ -15,7 +15,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option selected>Choose...</option>
+                        <option selected>Choix...</option>
                         <option value="1">T-shirt</option>
                         <option value="2">Pantalon</option>
                         <option value="3">Chaussettes</option>
@@ -24,7 +24,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
 
                     <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox1"
                             value="option1" aria-label="...">
                     </div>
                 </div>
@@ -39,13 +39,13 @@ main.innerHTML = `
                 </div>
                 <div class="col-auto my-1">
 
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter brand">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrez la marque du vêtement">
 
                 </div>
                 <div class="col-auto my-1">
 
                     <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2"
                             value="option1" aria-label="...">
                     </div>
                 </div>
@@ -60,7 +60,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option selected>Choose...</option>
+                        <option selected>Choix...</option>
                         <option value="1">Coton</option>
                         <option value="2">Nylon</option>
                         <option value="3">Synthétique</option>
@@ -69,7 +69,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
 
                     <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox3"
                             value="option1" aria-label="...">
                     </div>
                 </div>
@@ -84,7 +84,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option selected>Choose...</option>
+                        <option selected>Choix...</option>
                         <option value="1">China</option>
                         <option value="2">Europe</option>
                         <option value="3">Africa</option>
@@ -93,7 +93,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
 
                     <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox4"
                             value="option1" aria-label="...">
                     </div>
                 </div>
@@ -108,7 +108,7 @@ main.innerHTML = `
                 <div class="col-auto my-1">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option selected>Choose...</option>
+                        <option selected>Choix...</option>
                         <option value="1">0-50€</option>
                         <option value="2">50-100€</option>
                         <option value="3">100-200€</option>
@@ -118,8 +118,28 @@ main.innerHTML = `
                 </div> 
                 <div class="col-auto my-1">
                          <div class="form-check">
-                                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox5" value="option1" aria-label="...">
                         </div>
+                </div>
+            </div>
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                        title="Le code bar n'a d'influence sur le score">
+                        Code barre
+                    </button>
+                </div>
+                <div class="col-auto my-1">
+
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrez le code barre">
+
+                </div>
+                <div class="col-auto my-1">
+
+                    <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox6"
+                            value="option1" aria-label="...">
+                    </div>
                 </div>
             </div>
         </form>
@@ -127,6 +147,7 @@ main.innerHTML = `
             <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progressBar">2/5 </div>
         </div>
         <button type="button" id="boutonDatabase" class="btn btn-outline-success">Enregistrer</button>
+        
 `
 
 $(function () {
