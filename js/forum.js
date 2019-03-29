@@ -1,15 +1,18 @@
 let main = document.querySelector('main')
 main.innerHTML = `
-<h1>Forum</h1>
-<h2>Bienvenue sur le forum VétiScore</h2>
-<section>Le forum est un lieu d'échanges entre utilisateurs. Donnez-nous vos trucs et astuces</section>
+
+<h1>Bienvenue sur le forum VétiScore</h1>
+<section>
+<article>Le forum est un lieu d'échanges entre utilisateurs. Donnez-nous vos trucs et astuces</article>
+<article class = "commentaire">
 <div class="media">
     <img src="../img/profil1.jpeg" class="mr-3" alt="...">
     <div class="media-body">
       <h5 class="mt-0">Tip top</h5>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-  
-      <div class="media mt-3">
+  </div>
+
+      
         <a class="mr-3" href="#">
           <img src="../img/profil2.jpeg" class="mr-3" alt="...">
         </a>
@@ -18,23 +21,56 @@ main.innerHTML = `
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
         </div>
       </div>
+    
+
+    <div class="media">
+    <img src="" class="mr-3" alt="">
+    <div class="media-body">
     </div>
-    <form action="" method="GET" id = "form">
-    <label for="titreCom">Titre :</label>
-    <input id="titreCom" name="titreCom" type="text">
-    <label for="com">Commentaire :</label>
-    <input id="com" name="com" type="text">
-    <button type="submit" id="validation">Valider</bu
-    </div>
-    </form>
   </div>
+  <button type="submit" id="newCom">Répondre</button>
+  </article>
+  </section>
 `
 
-let validation = form.querySelector('validation')
-validation.addEventListener('click', function(){
-    let titreCom = document.querySelector('div.mt-0');
-    let com = document.querySelector('div.media-body');
-    com.content = document.querySelector('#com')
-    titreCom=document.querySelector('#titreCom')
+const newCom = document.querySelector('#newCom')
 
-    });
+newCom.addEventListener('click', function () {
+
+  const pseudo = prompt("Entrez votre pseudo");
+  console.log(`${pseudo}`);
+  const com = prompt("Entrez votre commentaire");
+  console.log(`${com}`);
+
+
+  //insertion pseudo
+  let avatar = document.createElement('h5');
+
+  avatar.textContent = `${pseudo}`;
+  avatar.className = "mt-0";
+  console.log("avatar :" + avatar);
+  
+  const utilisateur = document.querySelector(".media-body:last-child");
+  utilisateur.insertAdjacentElement("beforeend", avatar);
+console.log('insertion avatar');
+
+  //inserttion commentaire
+  //const commentaire = document.querySelector(".media-body:last-child")
+  let contenu = document.createElement('div')
+  contenu.textContent = `${com}`;
+  utilisateur.insertAdjacentElement("beforeend", contenu);
+  console.log('insertion com');
+  
+
+  console.log("début new div");
+
+  const futurCom = document.querySelector(".media-body:last-child")
+  const newDiv = document.createElement('div')
+    newDiv.className = 'media-body';
+    futurCom.insertAdjacentElement("afterend", newDiv);
+    console.log("fin new div");
+
+
+});
+
+
