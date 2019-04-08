@@ -19,9 +19,13 @@ main div{
 }
 h1, h5, article {
     color: cadetblue;
+    text-align: center;
 }
 h1{
     text-align: center;
+  }
+  h5{
+      padding: 15px;
   }
 main{
     display: flex;
