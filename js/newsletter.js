@@ -13,5 +13,4 @@ newsletter.innerHTML = `
   <div class="blockquote-footer">Someone famous (Agromy and Clo)<cite title="Source Title"></cite></div>
 </blockquote>
 </article>
-
 `

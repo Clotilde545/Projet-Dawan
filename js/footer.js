@@ -11,10 +11,10 @@ footer.innerHTML = `
         <div class="media">
                 <img id = "map " src="../img/data=EHW_mINW8aHn3FTlHTodsZdlpphTsWbDU2TgP2cRpFA9XYVIinGJb8NnbnLVVJNp4jeHZ6H0H0QyoqPm8tdlJeBtJ27yrnHV6QJVXEdiouOwRhgI_Ape9H4qQqxC1izJU08Qx-L4b5YGtCeI.png" class="mr-3" alt="...">
                 <div class="media-body">
-                <h5 id="contact">Contact</h5>
-                  <h5 class="mt-0">Adresse</h5>
+                <h5 id="contact">Contact :</h5>
+                  <h5 id="adresse" class="mt-0">Adresse</h5>
                  <p>We live here </p> 
-                  <h5 class="mt-0">Tel</h5> 
+                  <h5 id="tel" class="mt-0">Tel</h5> 
                   <p>0125487966 </p> 
                 </div>
             </div>
@@ -22,8 +22,8 @@ footer.innerHTML = `
     <div id="div2Foot2"> All rights reserved</div>
 </article>
 <article id="artFooter3">
-    <img src="../img/facebook.png" alt="logo facebook">
-    <img src="../img/instagram.jpeg" alt="logo instagram">
-    <img src="../img/twitter.png" alt="logo twitter">
+    <a href="www.facebook.com"> <img src="../img/facebook.png" alt="logo facebook"></a>
+    <a href="www.instagram.com"> <img src="../img/instagram.jpeg" alt="logo instagram"></a>
+    <a href="www.twitter.com"> <img src="../img/twitter.png" alt="logo twitter"></a>
 </article>
 `

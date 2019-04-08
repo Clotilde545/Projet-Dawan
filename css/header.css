@@ -6,6 +6,7 @@ header{
     border: 2px grey solid;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 header h1 {
     align-self: center;
@@ -33,4 +34,5 @@ header button{
     border-radius: 10px;
     box-shadow: 1px 1px 1px #000;
     color: rgb(90, 88, 88);
+    margin-left: 0%;
 }

@@ -40,8 +40,23 @@ h5{
 }
 
 #contact{
-    font-size: 1.25em;
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+#contact, #tel, #adresse {
+    padding: 0;
+}
+
 #map{
     height: 500px;
+}
+
+p{
+    color: #ADCA48;
+}
+
+.media p{
+    padding: 0px;
 }

@@ -9,6 +9,7 @@ body {
 main img{
     max-width: 100px;
 }
+
 main div{
     display: flex;
     padding: 15px;
@@ -17,14 +18,17 @@ main div{
     text-align: justify;
     color: #ADCA48;
 }
+
 h1, h5, article {
     color: cadetblue;
     text-align: center;
 }
+
 h1{
     text-align: center;
   }
-  h5{
+
+h5{
       padding: 15px;
   }
 main{
@@ -32,7 +36,7 @@ main{
     flex-grow: 1;
     display: grid;
     grid-template-rows: 0.1fr .90fr;
-    min-height: 500px;
+    min-height: 400px;
     padding: 10px;
     font-family: cursive;
     margin: 0;

@@ -1,7 +1,7 @@
 
 /*création d'une fonction qui compte le nombre de changement sur ma classe checkbox.
 *etape par étape :
-* Compter le nombre de checkbox (donc savoir ou les trouver)
+*Compter le nombre de checkbox (donc savoir ou les trouver)
 *Etre capable de réperer la valeur de ma checkbox : valider ou non
 *récupérer le nombre de valeur de mes checkboxs (=voir le changement au click)
 *Faire une action en fonction du nombre de valeur qui est :
